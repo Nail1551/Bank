@@ -1,16 +1,16 @@
 package org.example;
-import org.apache.commons.lang3.StringUtils;
+
 import org.example.Account.*;
 import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(StringUtils.upperCase("Hello and welcome!"));
+
         Scanner in = new Scanner(System.in);
-        Account first = new Account(1,12000);
-        Account second = new Account(2,12000);
-        Account third = new Account(3,10300);
+        Account first = new Account(1,10000);
+        Account second = new Account(2,10000);
+        Account third = new Account(3,10000);
         Account fourth = new Account(4,10000);
         Account fifth = new Account(5,10000);
         Account sixth = new Account(6,10000);
